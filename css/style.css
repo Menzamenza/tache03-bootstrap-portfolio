@@ -274,8 +274,8 @@ input:hover,input:focus,textarea:focus,textarea:hover,button{
 }
 label{
     color: var(--text-gray);
-}
-.form-control::placeholder{
+} 
+.form-control::placeholder,textarea::placeholder{
     color: var(--text-gray);
 }
 .contact_wrapper .form-control:hover,.contact_wrapper textarea:hover,.contact_wrapper .form-control:focus,.contact_wrapper textarea:focus{
