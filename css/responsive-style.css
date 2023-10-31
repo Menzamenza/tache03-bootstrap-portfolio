@@ -25,6 +25,21 @@
     .banner-wrapper{
         padding: 200px 0;
     }
+    /* ----about---- */
+    .about_wrapper ul.nav-pills{
+        width: 100%;
+        margin: auto;
+        border: 0;
+    }
+    .about_wrapper ul.nav-link{
+        width: 100%;
+        margin: auto;
+        border: 0;
+    }
+    /* -----portfolio------- */
+    .portfolio_wrapper .card{
+        min-height: 400px;
+    }
 }
 @media(max-width:767px){
     h1{
@@ -37,5 +52,18 @@
     p{
         font-size: 13px;
         line-height: 24px;
+    }
+     /* ----about---- */
+     .about_wrapper ul.nav-pills{
+        width: 100%;
+        margin: auto;
+        border: 0;
+    }
+    .about_wrapper ul li .nav-link{
+        font-size: 13px;
+    }
+    /* -----portfolio------- */
+    .portfolio_wrapper .card{
+        min-height: 500px;
     }
 }
